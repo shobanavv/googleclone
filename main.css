@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* Here reset ends*/
+
+
+
+nav{
+    float: right;
+    position: absolute;
+    width: 100%;
+    display: block;
+}
+
+.fontfamily
+{
+font-family: Verdana;
+font-size: 12px;
+height: 30px;
+padding-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color:#404040;
+}
+
+nav li
+ {
+    float:right;
+    padding: .4%;
+    margin-top: 15px;
+    font-family: Verdana;
+    font-size: 14px;
+   }
+
+#myphoto
+{
+    background: url("mephoto.jpg") no-repeat;
+    background-position: 5%;
+    width:2%;
+    margin-right:auto;
+    margin-left: 7px;
+    height: 30px;
+   }
+
+#bell
+{
+    background: url("appgrid.png") no-repeat;
+    background-position: -170px -173px;
+    box-sizing: border-box;
+    opacity: 30%;
+    width:2%;
+    color: #404040;
+    height: 30px;
+    margin-left: 10px;
+    border: 0;
+   }
+
+#share 
+{
+    width:4%;
+    padding-top: 1%;
+    margin-top: 10px;
+  }
+#app
+{
+background:url("bell.png");
+background-position: -105px -569px;
+background-size: 271px 616px;
+box-sizing: border-box;
+height: 30px;
+color: #404040;
+margin-left: 11px;
+opacity: .55;
+width: 30px;
+} 
+
+#container
+{
+    margin: auto;
+}
+.main_content
+{
+    width: 27%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 13%;
+    vertical-align: middle;
+}
+#img1
+{
+   max-height: 30%;
+    max-width: 60%;
+    display: block;
+   }
+
+#search
+{
+      float: right;
+       min-width: 100%;
+    }
+
+.main_content form input
+{ 
+width: 100%;
+display: block;
+padding: 1.5%;
+margin-bottom:2%;
+background:url("microphone.gif") 100% 90%;
+opacity: .55;
+background-repeat:  no-repeat;
+border-color: blue;
+border-width: 1px;
+}
+.gsearch{
+    border: 1px solid rgb(32,68,72);
+    text-align: center;
+    height:auto; 
+    width: auto;
+    border-radius: 3px;
+    padding: 1%;
+    margin: 3%;
+}
+.feelinglucky
+{
+    border: 1px solid rgb(32,68,72);
+    text-align: center;
+    height:auto; 
+    width: auto;
+    border-radius: 3px;
+    padding: 1%;
+    margin: 3%
+
+}
+
+form
+{
+    display:inline-block;
+}
+footer
+{
+   
+bottom: 0;
+padding: 0;
+position: absolute;
+width: 100%;
+background-color: #f2f2f2;
+border-top: 1px solid #e4e4e4;
+height: 30px;
+font-size: small;
+text-align: center;
+vertical-align: middle;
+}
+#right
+{
+float: right;
+margin-right: 1%;
+text-align: center;
+
+       
+
+}
+#left
+{
+    float: left;
+    margin-left: 1%;
+    text-align: center;
+
+}
+footer li{
+    display:inline-block;/*height and weight cannot be set*/
+    padding-right: 20px;
+    padding-top: 5px;
+    color: black;
+    position: relative;
+    font-family: Verdana;
+
+}
+#left li
+{
+    float:left;
+}
